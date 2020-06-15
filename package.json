@@ -1,10 +1,15 @@
 {
-  "name": "ember-cli-base64-css",
+  "name": "@yapplabs/ember-cli-base64-css",
   "version": "0.0.6",
   "description": "convert image paths to base64 strings",
-  "repository": "https://github.com/moudy/ember-cli-base64-css",
+  "homepage": "https://github.com/yapplabs/ember-cli-base64-css",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/yapplabs/ember-cli-base64-css.git"
+  },
   "main": "index.js",
   "scripts": {
+    "release": "release-it",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "ember-addon": {
@@ -13,11 +18,19 @@
   "author": "Moudy <moudy.elkammash@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "broccoli-base64-css": "^0.0.5"
+    "@yapplabs/broccoli-base64-css": "^0.0.6"
+  },
+  "devDependencies": {
+    "release-it": "^13.6.0",
+    "release-it-lerna-changelog": "^2.3.0"
   },
   "keywords": [
     "ember-addon",
     "css",
     "base64"
-  ]
+  ],
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org",
+    "access": "public"
+  }
 }
