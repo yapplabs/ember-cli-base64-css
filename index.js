@@ -1,5 +1,5 @@
 'use strict';
-const Base64CSS = require('broccoli-base64-css');
+const Base64CSS = require('@yapplabs/broccoli-base64-css');
 
 module.exports = {
   name: '@yapplabs/ember-cli-base64-css',
