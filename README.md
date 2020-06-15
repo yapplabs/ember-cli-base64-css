@@ -26,3 +26,4 @@ var app = new EmberApp({
 If you are fine with the default options, there is no need to configure anything in `ember-cli-build.js`.
 
 For info on these options, see [broccoli-base64-css](https://github.com/yapplabs/broccoli-base64-css).
+
